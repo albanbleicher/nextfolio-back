@@ -2,7 +2,8 @@
   "kind": "singleType",
   "collectionName": "settings",
   "info": {
-    "name": "Settings"
+    "name": "Settings",
+    "description": ""
   },
   "options": {
     "increments": true,
@@ -25,8 +26,19 @@
     "linkedin": {
       "type": "string"
     },
-    "twitter": {
+    "github": {
       "type": "string"
+    },
+    "avatar": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
     }
   }
 }

@@ -40,7 +40,7 @@
     "purpose": {
       "type": "string"
     },
-    "delay": {
+    "time": {
       "type": "string"
     },
     "context": {
@@ -50,9 +50,6 @@
       "type": "richtext"
     },
     "link": {
-      "type": "string"
-    },
-    "color": {
       "type": "string"
     }
   }

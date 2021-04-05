@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_components_experences",
+  "info": {
+    "name": "Experience",
+    "icon": "business-time",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Role": {
+      "type": "string"
+    },
+    "Company": {
+      "type": "string"
+    },
+    "companyWebsite": {
+      "type": "string"
+    },
+    "StartYear": {
+      "type": "date"
+    },
+    "EndYear": {
+      "type": "date"
+    }
+  }
+}

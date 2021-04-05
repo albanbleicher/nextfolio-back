@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_components_skills",
+  "info": {
+    "name": "Skills",
+    "icon": "temperature-high"
+  },
+  "options": {},
+  "attributes": {
+    "Domain": {
+      "type": "string"
+    },
+    "List": {
+      "type": "string"
+    }
+  }
+}

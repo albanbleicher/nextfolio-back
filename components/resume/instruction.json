@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_components_instructions",
+  "info": {
+    "name": "Instruction",
+    "icon": "school"
+  },
+  "options": {},
+  "attributes": {
+    "Diploma": {
+      "type": "string"
+    },
+    "SchoolName": {
+      "type": "string"
+    },
+    "StartYear": {
+      "type": "date"
+    },
+    "EndYear": {
+      "type": "date"
+    }
+  }
+}
