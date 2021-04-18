@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_projects_portfolio_elements",
+  "info": {
+    "name": "portfolio_element",
+    "icon": "list"
+  },
+  "options": {},
+  "attributes": {
+    "label": {
+      "type": "string"
+    },
+    "value": {
+      "type": "string"
+    }
+  }
+}

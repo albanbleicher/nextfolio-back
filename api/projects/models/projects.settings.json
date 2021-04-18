@@ -37,20 +37,19 @@
       "plugin": "upload",
       "required": false
     },
-    "purpose": {
-      "type": "string"
-    },
-    "time": {
-      "type": "string"
-    },
-    "context": {
-      "type": "string"
-    },
     "credits": {
       "type": "richtext"
     },
     "link": {
       "type": "string"
+    },
+    "type": {
+      "type": "string"
+    },
+    "portfolio_element": {
+      "type": "component",
+      "repeatable": true,
+      "component": "projects.portfolio-element"
     }
   }
 }
