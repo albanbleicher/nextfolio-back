@@ -38,7 +38,11 @@
         "videos"
       ],
       "plugin": "upload",
-      "required": false
+      "required": false,
+      "pluginOptions": {}
+    },
+    "seo_description": {
+      "type": "text"
     }
   }
 }
