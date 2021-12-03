@@ -1,8 +1,9 @@
 {
   "collectionName": "components_projects_portfolio_elements",
   "info": {
-    "name": "portfolio_element",
-    "icon": "list"
+    "name": "Argument",
+    "icon": "asterisk",
+    "description": ""
   },
   "options": {},
   "attributes": {
