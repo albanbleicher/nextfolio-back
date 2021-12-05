@@ -15,17 +15,11 @@
     "title": {
       "type": "string"
     },
-    "slug": {
-      "type": "string"
-    },
     "short_description": {
       "type": "text"
     },
-    "description": {
-      "type": "richtext"
-    },
     "medias": {
-      "collection": "file",
+      "model": "file",
       "via": "related",
       "allowedTypes": [
         "images",
@@ -35,6 +29,9 @@
       "plugin": "upload",
       "required": false,
       "pluginOptions": {}
+    },
+    "link": {
+      "type": "string"
     }
   }
 }
